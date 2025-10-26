@@ -32,4 +32,9 @@ Adjust ramming
 	- 500ms
 	- 250% extrusion width
 	- 100% separation
-	- 45mm3/s flow
+	- 45mm3/s Flow
+
+On tradrack configuration
+------------------------------------
+
+On Shape_tip macro, remove all macros of Slicer unload and put _TRADRACK_CUT_FILAMENT instead
