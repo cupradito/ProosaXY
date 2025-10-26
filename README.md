@@ -18,10 +18,10 @@ CoreXY conversion for Prusa MK3/S. This build is aiming at getting more performa
 - Our industrial leading SnakeOil technology :).
 
 ## 2. Status
-
-- All the main parts design are completed. Test print result are posted in our [Discord server](https://discord.gg/WZVP2HuAag)
+- [2025/10/26] [Tradrack mmu support](./Mods/tradrack_mmu_support/) is added by Jon.
+- [2023/07/11] All the main parts design are completed. Test print result are posted in our [Discord server](https://discord.gg/WZVP2HuAag)
 - All part STLs are exported. 
-- Full BOM added 2023/07/11
+- [2023/07/11] Full BOM added 2023/07/11
 - I'm working on a simple build log/manual. 
 - For updates, please visit our [Discord server](https://discord.gg/WZVP2HuAag)
 

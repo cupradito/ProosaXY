@@ -1,0 +1,35 @@
+Slicer configuration.
+
+On printer configuration
+-----------------------------------
+
+Enable MMU with single extruder
+Enable purge tower
+Enable Filament ramming
+
+Set to 0 all parameters of cooling tube, cooling tube lenght, filament stop, etc... on single extruder MMU parameters
+
+Printer gcode
+- Init gcode add to your startup->
+	TR_LOCATE_SELECTOR
+	T{initial_tool}
+
+- end gcode
+	TR_UNLOAD_TOOLHEAD
+
+- filament change gcode
+	T[next_extruder]
+	
+
+On filament configuration
+--------------------------------------
+
+end filament gcode 
+	_TRADRACK_CUT_FILAMENT
+
+Set to 0 all parameters of MMU , you dont want any cooling or shapetip
+Adjust ramming 
+	- 500ms
+	- 250% extrusion width
+	- 100% separation
+	- 45mm3/s flow
